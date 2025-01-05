@@ -8,12 +8,16 @@ int main()
     float height = 6;
     char grade = 65;
     bool isStudent = false;
+    int dob;
+    cout<<"Enter you Date of Birth : ";
+    cin>>dob;
 
     cout << "Name: " << name << endl;
     cout << "Age : " << age << endl;
     cout << "Height : " << height << endl;
     cout << "Grade : " << grade << endl;
     cout << "Is he a student : "<< isStudent << endl;
+    cout << "Your Date of birth is : " << dob << endl;
 
     age = 21;
     cout << "Her Age : " << age << endl;
